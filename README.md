@@ -1,5 +1,5 @@
 # malCard
-malCard is a compact MyAnimeList profile card generator that utilizes the Jinkan API. This project made with vanilla JS, CSS, HTML and bundle with Vite.
+malCard is a compact MyAnimeList profile card generator that utilizes the Jikan API. This project made with vanilla JS, CSS, HTML and bundle with Vite.
 (Finished 12.20.2023)
 ![Screenshot 2023-12-20 125120](https://github.com/thaph03/malCard/assets/107070673/e9638673-7fa5-47bb-962d-174bdae41bb7)
 
