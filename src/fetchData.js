@@ -25,6 +25,7 @@ const fetchData = async () => {
     const completed = parsedUserData.data.statistics.anime.completed;
     const episodesWatched =
       parsedUserData.data.statistics.anime.episodes_watched;
+
    
     const generateCard = createMalCard(
       userName,

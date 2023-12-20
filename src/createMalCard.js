@@ -14,7 +14,12 @@ const createMalCard = (
   malCardContainer.appendChild(profileIMGcontainer);
 
   const profileIMG = document.createElement('img');
-  profileIMG.src = imagePNG;
+  if (imagePNG == null) {
+    profileIMG.src = 'https://cdn.myanimelist.net/images/kaomoji_mal_white.png';
+  } else {
+    profileIMG.src = imagePNG;
+  }
+
   profileIMG.alt = 'user-profile';
   profileIMGcontainer.appendChild(profileIMG);
 
